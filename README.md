@@ -9,3 +9,4 @@ trainとtest（それぞれデータフレーム）を入れればベストモ�
 #### ver.1.1
 trainとtest(dataframe), model_list(list)を入れればベストモデルを返す<br>
 exam: model_list = [RandomForestRegressor(random_state=42),LinearRegression()]
+<br>=>テストサイズも指定したい
