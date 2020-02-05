@@ -1,4 +1,4 @@
-def best_model(train, test):
+def best_model(train, test, model_list):
   #初期値の設定
   best_score = 0
   best_size = 0
@@ -26,8 +26,6 @@ def best_model(train, test):
       for size in test_size:
         X_train, X_test, y_train, y_test = train_test_split(
               X, y, test_size=size, random_state=0)
-        #試したいモデルを入れる
-        model_list = [RandomForestRegressor(random_state=42),LinearRegression()]
 
         for i in model_list:
             model = i
