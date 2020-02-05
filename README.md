@@ -6,3 +6,5 @@ Brute-force.py<br>
 ### ver.1
 trainとtest（それぞれデータフレーム）を入れればベストモデルを返す
 <br>=>モデルも指定したい
+#### ver.1.1
+trainとtest(dataframe), model_list(list)を入れればベストモデルを返す
